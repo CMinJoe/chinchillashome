@@ -26,3 +26,10 @@ html {
     width: 50px;
   }
 }
+
+.home-page-image{
+  background: url(../../public/assets/chinchill-1.png) no-repeat  center  bottom;
+  -webkit-background-size: Contain ;
+  background-size: cover ;
+  overflow: hidden;
+}

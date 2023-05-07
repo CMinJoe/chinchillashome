@@ -43,11 +43,11 @@ const Layout = ({ siteData = {}, pageData = {}, schema, children }) => {
           }}
         />
       )}
-      <Header data={siteData.header} />
+      {/* <Header data={siteData.header} /> */}
       <Main footerRef={footerRef} siteData={siteData}>
         {children}
       </Main>
-      <Footer ref={footerRef} data={siteData.footer} />
+      {/* <Footer ref={footerRef} data={siteData.footer} /> */}
     </>
   );
 };
